@@ -1,0 +1,329 @@
+/******************************HTML Elements Styled******************************/
+body{
+    background-color: #8E8E8E;
+    text-decoration: none;
+    margin: 0;
+}
+
+nav{
+    color: grey;
+    font: 20px;
+    margin: 15px 185px 15px 0px;
+}
+
+a{
+    text-decoration: none;
+}
+
+h2{
+    font-family: Helvetica;
+    font-size: 35px;
+    color: grey;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+h3{
+    font-family: Helvetica;
+    font-size: 25px;
+    color: white;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+h4{
+    color: white;
+    font-family: sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    text-align: center;
+}
+
+input{
+    border: 0px solid;
+    border-bottom: 1px solid;
+    border-bottom-color: #BDBDBD;
+    font-size: 30px;
+    color: grey;
+    background-color: transparent;
+    margin-bottom: 30px;
+    height: 60px;
+}
+
+textarea{
+    border: 0px solid;
+    border-bottom: 1px solid;
+    border-bottom-color: #BDBDBD;
+    font-size: 30px;
+    color: grey;
+    background-color: transparent;
+    font-family: sans-serif;
+    resize: none;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    width: 45%;
+}
+
+/******************************Manually Created Div******************************/
+
+/*Navbar Outer Div Class*/
+.navbarmain{
+    width: 100%;
+    height: auto;
+    position: fixed;
+    background-color: #722872;
+    box-shadow: 0px 2px 2px 1px rgba(0, 0, 0, 0.2);
+    border-color:#592059;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+/*Logo Class*/
+.logo{
+    width: auto;
+    height: auto;
+    margin: 15px 0px 15px 185px;
+}
+
+/*Logo Image Class*/
+.logo-img{
+    width: 50px;
+    height: 50px;
+}
+
+/*Navbar Buttons*/
+.nav-buttons{
+    font-family: sans-serif;
+    font-size: 18px;
+    color: whitesmoke;
+    padding: 10px 20px 10px 20px;
+    text-transform: uppercase;
+    line-height: 50px;
+}
+
+.nav-buttons:hover{
+    color:black;
+    box-shadow: 0px 2px 2px 1px rgba(0, 0, 0, 0.2);
+}
+
+.nav-buttons:active{
+    background-color: white !important;
+}
+
+/*About Me Section ID*/
+#about-me{
+    margin: 85px 160px 0px 160px;
+    background-color: #ADADAD;
+    height: 370px;
+    position: auto;
+    display: inline-flex;
+}
+
+/*Text Only Div*/
+.text-only{
+    width: 70%;
+    height: 100%;
+    padding-left: 60px;
+    padding-top: 90px;
+}
+
+/*About Me Text*/
+.about-me-text{
+    color: white;
+    font-family: sans-serif;
+    font-weight: 500;
+    font-size: 21px;
+    width: 100%;
+    height: auto;  
+    text-align: right; 
+}
+
+/* About Me Text Div Line*/
+.star-bright{
+    width: 90%;
+    height: 3px;
+    color: white;
+    margin-top: 35px;
+    margin-bottom: 35px;
+    background-color: white;
+}
+
+/*Skills Row Bottom About Me*/
+.skills-me{
+    color: white;
+    font-family: sans-serif;
+    font-weight: 500;
+    font-size: 24px;
+    width: 100%;
+    text-align: auto; 
+}
+
+/*Image Only Div About Me Section*/
+.image-only{
+    width: 30%;
+    height: auto;
+    position: auto;
+    padding: 75px 10px 0px 50px;
+}
+
+/*Image In The Image Only Div*/
+.image-class{
+    width: 85%;
+    height:auto; 
+    border-style: none;
+    border-radius: 50%;
+}
+
+/*Portfolio Section*/
+#portfolio{
+    margin: 0px 160px 0px 160px;
+    background-color: whitesmoke;
+    height: auto;
+    position: auto;
+    padding-top: 20px;
+    padding-bottom: 50px;
+    box-shadow: 0px 2px 2px 1px rgba(0, 0, 0, 0.2);
+    border-bottom-style: solid;
+    border-width: 2px;
+    border-color: #BDBDBD;
+}
+
+/*Line Dark*/
+.star-dark{
+    width: 70%;
+    height: 3px;
+    color: grey;
+    background-color: grey;
+}
+
+/*Outer Image*/
+.image-outer{
+    padding: 0;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    width: 90%;
+    display: flex;
+    flex-direction: row wrap;
+    justify-content: space-around;    
+}
+
+/*Inner Image Grid*/
+.image-inner{
+    width: 47%;
+}
+
+/*Image Class*/
+.image-value{
+    width: 400px;
+    height: 400px;
+}
+
+/*Contact Me Section*/
+#contact-me{
+    margin: 0px 160px 0px 160px;
+    background-color: whitesmoke;
+    height: auto;
+    position: auto;
+    padding-top: 20px;
+    padding-bottom: 50px;
+}
+
+/*Outer Div*/
+.outer-div{
+    width: 85%;
+    height: auto;
+    margin-top: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: row wrap;
+    justify-content: space-between;
+}
+
+/*Contact Text Div*/
+.contact-text-div{
+    width: 45%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+/*Contact Text*/
+.contact-text{
+    font-size: 20px;
+    color: grey;
+    font-weight: 500;
+    font-family: sans-serif;
+}
+
+/*Send Button*/
+#sendbutton{
+    border: 1px solid;
+    border-color: #BDBDBD;
+    font-size: 25px;
+    color: grey;
+    background-color: none;
+    margin-top: 40px;
+    margin-bottom: 0px;
+    width: 20%;
+    height: auto;
+    text-align: center;
+}
+
+/*Footer Top*/
+.footer-top{
+    height: 75%;
+    background-color: #ADADAD;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+/*About Website Div*/
+.about-website{
+    color: white;
+    font-size: 20px;
+    font-family: sans-serif;
+    text-align: center;
+    margin: 50px 0px 50px 150px;
+}
+
+/*Social Media Links*/
+.social-links{
+    color: white;
+    font-size: 20px;
+    font-family: sans-serif;
+    text-align: center;
+    margin: 50px 150px 50px 0px;
+}
+
+/*Button Social Links Styled*/
+.button-social{
+    color: white;
+    border: 2px solid white;
+    border-radius: 50%;
+    padding: 10px;
+    line-height: 48px;
+}
+
+.button-social:hover{
+    color: #722872;
+    border: 2px solid white;
+    background-color: white;
+    border-radius: 50%;
+    padding: 10px;
+    line-height: 48px;
+}
+
+/*Footer Bottom*/
+.footer-bottom{
+    background-color:#722872;
+    height: 25%;
+    padding-top: 2px;
+}
